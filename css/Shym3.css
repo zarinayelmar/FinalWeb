@@ -1,0 +1,89 @@
+a {
+	text-decoration: none;
+}
+.header-div {
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	align-items: center;
+	background-color: #000000;
+	opacity: 40%;
+}
+.btn-links {
+	display: flex;
+	justify-content: flex-end;
+	height: 75px;
+	align-items: center;
+	margin-right: 150px;
+}
+.my-btn {
+	padding-bottom: 8px;
+	color: red;
+}
+.my-btn a {
+	color: white;
+}
+.elements {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	margin-right: 16px;
+}
+.fSite {
+	display: flex;
+}
+.firstBlock {
+	height: 760px;
+	width: 50%;
+	background: url("https://www.swarco.com/sites/default/files/public/inline-images/shym.png") center center/cover
+		no-repeat;
+}
+.secBlock {
+	height: 760px;
+	width: 50%;
+	background: rgb(255, 228, 181);
+}
+.logo-text {
+	display: flex;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+.logo-text p {
+	font-weight: 700;
+	font-size: 22px;
+	color: white;
+}
+.temp {
+	height: 1000px;
+	width: 100%;
+}
+.secBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 40px;
+}
+.secBlock h1 {
+	font-weight: 700;
+	color: #778899;
+	font-size: 50px;
+}
+.secBlock p {
+	color: #2f4f4f;
+	opacity: 80%;
+	font-size: 32px;
+}
+.temp {
+	margin-top: 50px;
+}
+
+.btn11 {
+	height: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.my-btn11 {
+	width: 100px;
+}

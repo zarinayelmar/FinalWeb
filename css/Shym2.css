@@ -1,0 +1,182 @@
+.question {
+	margin-top: 100px;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+.thumb {
+	max-width: 100%;
+	max-height: 100%;
+	align-items: center;
+}
+.thumb2 {
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}
+.about-us {
+	line-height: 25px;
+	font-size: 20px;
+	background: whitesmoke;
+	color: black;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.logo_nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.clinic_info {
+	display: flex;
+}
+
+.geo {
+	display: flex;
+	width: 250px;
+	margin-right: 30px;
+}
+
+.geo img {
+	margin-right: 7px;
+}
+
+.geo p {
+	width: 200px;
+	font-size: 15px;
+}
+
+.phone {
+	display: flex;
+	font-size: 11px;
+	width: 187px;
+}
+
+.phone img {
+	margin-right: 7px;
+}
+
+.phone_info a {
+	font-size: 18px;
+}
+
+.phone_info p {
+	text-align: right;
+}
+.aboutUs {
+	padding: 30px 0;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+}
+
+.content p {
+	margin: 0 0 20px 0;
+}
+.content h4 {
+	margin-bottom: 20px;
+}
+.doctor_name span {
+	font-weight: bold;
+}
+
+.footer {
+	padding: 30px 0;
+	background-color: #13ebeb;
+}
+
+.footer .logo_nav {
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social a {
+	margin-right: 15px;
+}
+
+.footer_arrow {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-top: 5px solid #fff;
+	border-right: 5px solid #fff;
+	transform: rotate(-45deg);
+	cursor: pointer;
+	margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.shym-bg {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 760px;
+		width: 100%;
+		background: url("../img/shym.jpg") center center/cover no-repeat;
+		text-align: center;
+	}
+	.shym-bg h1 {
+		z-index: 1;
+		font-weight: 700;
+		font-size: 45px;
+		margin-top: -300px;
+		color: #000;
+	}
+	.shym-bg p {
+		margin-top: 15px;
+		font-size: 20px;
+		font-weight: 500;
+		z-index: 1;
+		color: #000;
+	}
+	.white-bg {
+		margin-top: -200px;
+		height: 400px;
+		width: 600px;
+		background-color: #fff;
+		opacity: 60%;
+	}
+	.line {
+		z-index: 1;
+		margin-top: 15px;
+		height: 5px;
+		width: 100px;
+		background-color: black;
+		border-radius: 30px;
+	}
+}
+.header-div {
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	align-items: center;
+	background-color: #000000;
+	opacity: 40%;
+}
+.btn-links {
+	display: flex;
+	justify-content: flex-end;
+	height: 75px;
+	align-items: center;
+	margin-right: 70px;
+}
+.my-btn {
+	padding-bottom: 8px;
+	color: red;
+}
+.my-btn a {
+	color: white;
+}
+.elements {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-right: 16px;
+}

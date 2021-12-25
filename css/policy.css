@@ -1,0 +1,11 @@
+.tit {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text {
+    width: 80%;
+    margin: 0 auto;
+    border: gray 2px;
+    margin-top: 50px;
+}

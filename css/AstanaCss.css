@@ -1,0 +1,120 @@
+.astanaBg {
+	height: 760px;
+	width: 100%;
+	background: url('https://all.accor.com/magazine/imagerie/1-619b.jpg') center center/cover no-repeat;
+}
+.mainStr{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.blackBg {
+	height: 400px;
+	width: 700px;
+	background-color: black;
+	opacity: 50%;
+	margin-top: 200px;
+}
+.forText {
+	z-index: 1;
+	height: 400px;
+	width: 400px;
+}
+.forText h1 {
+	width: 500px;
+	margin-left: 40px;
+	margin-top: -350px;
+	color: white;
+	font-size: 50px;
+}
+.forText p {
+	margin-top: 20px;
+	width: 500px;
+	margin-left: 40px;
+	color: white;
+	font-size: 22px;
+}
+.forText button {
+	margin-top: 20px;
+	width: 200px;
+	margin-left: 40px;
+	font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	a {
+	text-decoration: none;
+	}
+	.headerDiv {
+		display: flex;
+		justify-content: space-between;
+		height: 75px;
+		align-items: center;
+		background-color: #000000;
+		opacity: 40%;
+	}
+	.btnLinks {
+		display: flex;
+		justify-content: flex-end;
+		height: 75px;
+		align-items: center;
+		margin-right: 70px;
+	}
+	.MyBtn {
+		padding-bottom: 8px;
+		color: red;
+	}
+	.MyBtn a {
+		color: white;
+	}
+	.elements {
+		color: #fff;
+		font-size: 18px;
+		font-weight: 400;
+		margin-right: 16px;
+	}
+	.astanaBg {
+	height: 760px;
+	width: 100%;
+	background: url('https://all.accor.com/magazine/imagerie/1-619b.jpg') center center/cover no-repeat;
+	}
+	.mainStr{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.blackBg {
+		height: 400px;
+		width: 550px;
+		background-color: black;
+		opacity: 50%;
+		margin-top: 200px;
+	}
+	.forText {
+		z-index: 1;
+		height: 400px;
+		width: 350px;
+	}
+	.forText h1 {
+		width: 500px;
+		margin-left: 36px;
+		margin-top: -350px;
+		color: white;
+		font-size: 50px;
+	}
+	.forText p {
+		margin-top: 18px;
+		width: 500px;
+		margin-left: 40px;
+		color: white;
+		font-size: 22px;
+	}
+	.forText button {
+		margin-top: 20px;
+		width: 200px;
+		margin-left: 40px;
+		font-size: 22px;
+	}
+}
